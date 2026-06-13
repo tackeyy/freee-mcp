@@ -9,6 +9,7 @@ jobs:
   publish:
     name: Publish to npm
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     if: github.ref == 'refs/heads/main'
     permissions:
       contents: write
