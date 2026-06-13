@@ -135,6 +135,9 @@ out
 .vscode
 !.vscode/settings.json
 
+# macOS metadata
+.DS_Store
+
 # dist (all packages)
 **/dist/
 
